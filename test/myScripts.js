@@ -1,7 +1,8 @@
 function myLoop() {
+  var start = document.getElementById("start").value;
 var end = 
- document.getElementById("endLoop")
-for ( var i = 0; i <= 10; i++)
+ document.getElementById("end").value;
+for ( var i = start; i <= end; i++)
   {
     document.write('<p>' + i + '</p>')
   }
